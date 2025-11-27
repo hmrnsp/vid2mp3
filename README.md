@@ -26,6 +26,7 @@ A simple video to MP3 converter with a modern GUI built in Rust.
 ## Screenshots
 
 ![Vid2MP3 Interface](assets/screenshot.png)
+
 _Clean and simple interface_
 
 ## Installation 🔧
