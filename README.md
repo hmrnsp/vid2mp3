@@ -7,6 +7,8 @@ A simple video to MP3 converter with a modern GUI built in Rust.
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/hmrnsp/vid2mp3?style=for-the-badge)](https://github.com/hmrnsp/vid2mp3/releases/latest)
+
 ## Features
 
 - **Drag & Drop** - Simply drag your video file into the app
@@ -65,7 +67,13 @@ sudo pacman -S ffmpeg
 
 ### Download
 
-Download the latest release from the [Releases](https://github.com/yourusername/vid2mp3/releases) page.
+**📥 [Download Latest Release](https://github.com/hmrnsp/vid2mp3/releases/latest)**
+
+Choose the appropriate version for your operating system:
+
+- **Windows**: `vid2mp3-windows.zip /  vid2mp3.exe `
+- **macOS**: `vid2mp3-macos.zip`
+- **Linux**: `vid2mp3-linux.tar.gz`
 
 Or build from source:
 
