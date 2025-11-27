@@ -1,0 +1,20 @@
+[package]
+name = "vid2mp3"
+version = "0.1.0"
+edition = "2024"
+authors = ["Rede <hamransp@egmail.com>"]
+description = "A simple, elegant video to MP3 converter with modern GUI built in Rust"
+repository = "https://github.com/hmrnsp/vid2mp3"
+license = "MIT"
+keywords = ["video", "mp3", "converter", "gui", "ffmpeg"]
+categories = ["multimedia::video", "multimedia::audio"]
+readme = "README.md"
+
+[dependencies]
+eframe = "0.33.2"
+rfd = "0.16.0"
+tokio = { version = "1", features = ["rt-multi-thread", "process", "sync"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+
+[build-dependencies]
+winres = "0.1"
